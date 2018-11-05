@@ -1,0 +1,72 @@
+body
+{
+    margin: 0px;
+    background: linear-gradient(45deg,black,purple,black);
+}
+#logo
+{
+    height: 8vh;
+    width: 20%;
+    margin-left: 1%;
+    margin-top: 1vh;
+    display: inline-block;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+svg
+{
+    height: 100%;
+    width: 100%;
+}
+#login
+{
+    width: 15%;
+    height: 7vh;
+    border: 3px solid black;
+    border-radius: 20px;
+    float: right;
+    margin-top: 1vh;
+    margin-right: 1%;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#wrap
+{
+    width: 100%;
+    height: calc(100vh - 10vh);
+    display: grid;
+    grid-template-columns: 30% 69%;
+    grid-gap: 1vw;
+    box-sizing: border-box;
+    padding: 1%;
+
+
+}
+menu,#trendingpeople,#trendingarticles,#login
+{
+
+    border: 2px solid white;
+    border-radius: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    background: white;
+}
+menu
+{
+    margin: 0px;
+    grid-row-start: 1;
+    grid-row-end: 9;  
+}
+#trendingpeople
+{
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+#trendingarticles
+{
+    grid-row-start: 5;
+    grid-row-end: 9; 
+}

@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+<head><title>home</title></head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body
+    {
+        margin:0;
+        background: rgba(250,220,220,1);
+        overflow:hidden;
+    }
+    #menu
+        {
+            width: 100%;
+            height: 10vh;
+            min-height: 70px;
+            position: sticky;
+            top: 0px;
+            background:black;
+            z-index: 2;
+        }
+        #logo
+        {
+            height: 5vh;
+            min-height: 40px;
+            width: 24%;
+            display: inline-block;
+            box-sizing: border-box;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-left:10%;
+            margin-top: 2.5vh;
+        }
+        svg
+        {
+            height: 100%;
+            width: 100%;
+            object-position: center;
+            transition: 0.5s;
+        }
+        #login
+        {
+            width: 10%;
+            height: 5vh;
+            margin-top: 2.5vh;
+            min-height: 40px;
+            margin-top:2.5vh;
+            margin-right: 0.5%;
+            border: 3px solid black;
+            background: white;
+            border-radius: 20px;
+            float: right;
+            display: inline-block;
+            box-sizing: border-box;
+            overflow: hidden;
+            transition: 0.5s;
+        }
+        #login:hover
+        {
+            width:20%;
+            width:50%;
+            background: rgb(250,250,210);
+        }
+        #login:hover svg
+        {
+             transform: translate(-37%);
+        }
+    #wrap
+    {
+        width:80vw;
+        height: calc(100vh - 10vh);
+        margin:auto;
+        display: inline-block;
+        background: white;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+    #profile
+    {
+        margin: 0px;
+        height: calc(100vh - 10vh);
+        overflow: auto;
+        padding: 10px;
+    }
+    img
+    {
+        border-radius:15px;
+        position:relative;
+        top:-40px;
+    }
+    #image
+    {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    #feed
+    {
+        margin: 0px;
+        height: calc(100vh - 10vh);
+
+        overflow: auto;
+        padding: 10px;
+    }
+    .test
+    {
+        width:auto;
+        height: 200px;
+        padding:10px;
+        margin:10px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        margin: 10px;
+        overflow:hidden;
+        background: rgb(250,250,230);
+    }
+    .pimage
+    {
+        border-radius:15px;
+        padding: 0px;
+    }
+    ::-webkit-scrollbar
+    {
+        width: 5px;
+        background: black;
+    }
+    ::-webkit-scrollbar-thumb
+    {
+        background: black;
+    }
+    #social_media
+    {
+        width:50px;
+        height:300px;
+        display: inline-block;
+        position: fixed;
+        z-index: 3;
+        top: 30vh;
+        right: 0px;
+        display: grid;
+        grid-template-rows: auto;
+    }
+    i:hover
+    {
+        color:darkgoldenrod;
+        text-shadow: 1px 1px 5px white;
+    }
+    #logo:hover rect,#login:hover .rect
+    {
+        fill:darkgoldenrod;
+        text-shadow: 1px 1px 5px white;
+    }
+    #1logo:hover,#login:hover
+    {
+        background: black;
+    }
+    #1logo:hover ellipse,#login:hover ellipse
+    {
+        fill:black;
+    }
+    #1login:hover .rectextra
+    {
+        fill:black;
+        text-shadow: 1px 1px 5px white;
+    }
+    
+</style>
+<body>
+    <div id="menu" >
+        <a href="../index.html"><div id="logo">     
+            <svg width="529" height="272" viewBox="300 10 150 250" xmlns="http://www.w3.org/2000/svg" >
+              <rect rx="20" fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="153.616468" y="36.19522" width="99.775064" height="200.408316" id="svg_3" stroke="#000"/>
+              <rect rx="20" fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="271.95416" y="36.19522" width="99.775064" height="200.408316" id="svg_6" stroke="#000"/>
+              <rect rx="20" fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="386.150037" y="36.19522" width="99.775064" height="200.408316" id="svg_10" stroke="#000"/>
+              <ellipse stroke="#000" ry="32.499997" rx="31.5" id="svg_19" cy="91.499999" cx="199.999999" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+              <ellipse transform="rotate(90.17257690429688 322,125.00000000000003) " stroke="#ffffff" ry="18.000001" rx="13.500002" id="svg_22" cy="125.000001" cx="322" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000"/>
+              <ellipse stroke="#000" transform="rotate(35.5355224609375 333.5746765136721,175.19622802734372) " ry="41.415398" rx="25.999999" id="svg_23" cy="175.196224" cx="333.574674" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+              <ellipse stroke="#000" ry="34.499997" rx="44" id="svg_24" cy="90.499998" cx="332.499998" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+              <ellipse transform="rotate(22.402982711791992 309.5000000000001,140.00000000000006) " stroke="#000" ry="34.999997" rx="16.999999" id="svg_25" cy="139.999998" cx="309.499999" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+              <ellipse stroke="#000" ry="50.999997" rx="31.5" id="svg_26" cy="195.999997" cx="203.999999" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+              <ellipse stroke="#000" ry="28.999998" rx="45.499999" id="svg_27" cy="87.999999" cx="457" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+              <ellipse stroke="#000" ry="28.999998" rx="45.499999" id="svg_29" cy="175.999999" cx="455" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+              <rect rx="20" fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="37.616468" y="36.19522" width="99.775064" height="200.408316" id="svg_30" stroke="#000"/>
+              <ellipse stroke="#000" ry="32.499997" rx="31.5" id="svg_32" cy="86.499999" cx="87.999999" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+              <ellipse stroke="#000" transform="rotate(9.28617000579834 109.6328430175781,200.1551513671875) " ry="65.499996" rx="40.352259" id="svg_33" cy="200.15515" cx="109.632835" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+            </svg>
+            </div></a>
+        <div id="login" onclick="login()">              
+            <svg width="640" height="480" viewBox="200 90 250 250" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;" stroke="null">
+             <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+                 <g stroke="null">
+                  <title>Layer 1</title>
+                  <rect class="rect" rx="43" fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="156.616468" y="121.19522" width="99.775064" height="200.408316" id="svg_3" stroke="#000"/>
+                  <rect class="rect"  rx="20" fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="274.95416" y="121.19522" width="99.775064" height="200.408316" id="svg_6" stroke="#000"/>
+                  <ellipse stroke="#000" ry="36.499996" rx="30.500001" id="svg_19" cy="216.499999" cx="209" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+                  <ellipse transform="rotate(90.17257690429688 325,210.00000000000003) " ry="18.000001" rx="13.500002" id="svg_22" cy="210.000001" cx="325" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000" stroke="#ffffff"/>
+                  <ellipse transform="rotate(35.5355224609375 336.5746765136718,260.1962280273438) " ry="41.415398" rx="25.999999" id="svg_23" cy="260.196224" cx="336.574674" stroke-opacity="null" stroke-width="0" fill="#ffffff" stroke="#000"/>
+                  <ellipse ry="34.499997" rx="44" id="svg_24" cy="175.499998" cx="335.499998" stroke-opacity="null" stroke-width="0" fill="#ffffff" stroke="#000"/>
+                  <ellipse transform="rotate(22.402982711791992 312.49999999999994,225.0000000000001) " ry="34.999997" rx="16.999999" id="svg_25" cy="224.999998" cx="312.499999" stroke-opacity="null" stroke-width="0" fill="#ffffff" stroke="#000"/>
+                  <rect class="rect"  rx="20" fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="40.616468" y="121.19522" width="99.775064" height="200.408316" id="svg_30" stroke="#000"/>
+                  <ellipse ry="15" rx="15" id="svg_32" cy="154.000001" cx="74" stroke-opacity="null" stroke-width="0" fill="#ffffff" stroke="#000"/>
+                  <ellipse ry="15" rx="15" id="svg_1" cy="186.000001" cx="111" stroke-opacity="null" stroke-width="0" fill="#ffffff" stroke="#000"/>
+                  <ellipse ry="15" rx="15" id="svg_2" cy="216.000001" cx="75" stroke-opacity="null" stroke-width="0" fill="#ffffff" stroke="#000"/>
+                  <ellipse ry="15" rx="15" id="svg_5" cy="247.000001" cx="111" stroke-opacity="null" stroke-width="0" fill="#ffffff" stroke="#000"/>
+                  <ellipse ry="15" rx="15" id="svg_7" cy="281.000001" cx="74" stroke-opacity="null" stroke-width="0" fill="#ffffff" stroke="#000"/>
+                  <rect class="rect" rx="20" fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="40.616468" y="121.19522" width="99.775064" height="200.408316" id="svg_8" stroke="#000"/>
+                  <rect class="rect"  rx="20" fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="389.616468" y="122.19522" width="99.775064" height="200.408316" id="svg_14" stroke="#000"/>
+                  <rect class="rect"  rx="17" fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="503.616468" y="123.19522" width="99.775064" height="200.408316" id="svg_21" stroke="#000"/>
+                  <rect class="rectextra" fill="#ffffff" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="408.5" y="155" width="62" height="21" id="svg_33" rx="10" stroke="#000"/>
+                  <rect class="rectextra" fill="#ffffff" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="410.5" y="267" width="62" height="21" id="svg_34" rx="10" stroke="#000"/>
+                  <rect class="rectextra" fill="#ffffff" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="412.499999" y="209" width="55.999998" height="21" id="svg_50" rx="10" transform="rotate(90 440.50000000000006,219.50000000000003) " stroke="#000"/>
+                  <rect class="rectextra" stroke="#000" fill="#ffffff" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="455.499989" y="263" width="156.00001" height="21" id="svg_51" rx="10" transform="rotate(90 533.5000000000001,273.50000000000006) "/>
+                  <rect class="rectextra" stroke="#000" fill="#ffffff" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="504.999989" y="155.5" width="137.000008" height="21" id="svg_55" rx="10" transform="rotate(90 573.5000000000001,166.00000000000006) "/>
+                  <rect class="rectextra" stroke="#000" rx="17" fill="#ffffff" stroke-width="0" stroke-opacity="null" x="77.616471" y="106.195225" width="74.775058" height="174.408294" id="svg_10"/>
+                 </g>
+            </svg>
+        </div>
+    </div>
+    <div id="social_media">
+        <i style="font-size: 24px;" class="fa fa-instagram"></i>
+        <i style="font-size: 24px;" class="fa fa-facebook-f"></i>
+        <i style="font-size: 24px;" class="fa fa-linkedin"></i>
+        <i style="font-size: 24px;" class="fa fa-pinterest-p"></i>
+        <i style="font-size: 24px;" class="fa fa-quora"></i>
+        <i style="font-size: 24px;" class="fa fa-twitter"></i>
+        <i style="font-size: 24px;" class="fa fa-whatsapp"></i>
+    </div>
+    <div id="wrap">
+       <div id="profile">
+          <div class="test pimage">
+              <img src="../image/profile%20img.jpeg" alt="profile img" id="image" />
+           </div>
+           <div class="test">
+               <h3 class="feed_heading">Head</h3>
+               Velit domesticarum cupidatat quid nescius. An culpa cillum tamen quamquam e 
+               cernantur te nulla cernantur non velit incididunt ad voluptate, qui veniam 
+               tempor firmissimum de anim ullamco efflorescere eu ea esse offendit 
+           </div>
+           <div class="test">
+              <h3 class="feed_heading">Head</h3>
+               Ullamco veniam senserit ubi quorum voluptate si sempiternum.
+
+               De legam incurreret coniunctione, noster praetermissum fabulas summis 
+               mandaremus.
+
+               Lorem offendit an ullamco, magna senserit eu possumus.
+           </div>
+           <div class="test">
+               <h3 class="feed_heading">Head</h3>
+                Fabulas velit cupidatat, eiusmod aute malis cernantur esse.
+
+                Senserit duis arbitror proident, ubi duis familiaritatem.
+
+                Quis quibusdam quo incididunt do nam fore incididunt.
+            </div>
+       </div>
+       <div id="feed">
+           <div class="test">
+              
+              E tempor tractavissent, quem nostrud aut enim varias. Ubi nam nisi tempor, aut 
+               quid varias varias fabulas te ex amet o fore ne probant sed magna, ad senserit 
+               de tempor id eiusmod quid ullamco, cillum consectetur mandaremus elit singulis, 
+           </div>
+           <div class="test">Velit domesticarum cupidatat quid nescius. An culpa cillum tamen quamquam e 
+               cernantur te nulla cernantur non velit incididunt ad voluptate, qui veniam 
+               tempor firmissimum de anim ullamco efflorescere eu ea esse offendit 
+           </div>
+           <div class="test">
+               Ullamco veniam senserit ubi quorum voluptate si sempiternum.
+
+               De legam incurreret coniunctione, noster praetermissum fabulas summis 
+               mandaremus.
+
+               Lorem offendit an ullamco, magna senserit eu possumus.
+           </div>
+           <div class="test">
+                Fabulas velit cupidatat, eiusmod aute malis cernantur esse.
+
+                Senserit duis arbitror proident, ubi duis familiaritatem.
+
+                Quis quibusdam quo incididunt do nam fore incididunt.
+            </div>
+       </div>
+   </div>
+
+ <script>
+    var login()
+     {
+         
+     }
+</script>   
+</body>
+</html>

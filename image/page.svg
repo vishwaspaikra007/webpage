@@ -1,0 +1,26 @@
+<svg width="447" height="203" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#ffffff" id="canvas_background" height="205" width="449" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000" id="svg_1" height="199.816623" width="25" y="0.841688" x="0.75" stroke-width="1.5" fill="#000000"/>
+  <rect stroke="#000" id="svg_2" height="100.408311" width="75.183376" y="0.75" x="27.383246" stroke-width="1.5" fill="#000000"/>
+  <rect stroke="#000" id="svg_3" height="200.408316" width="99.775064" y="1.19522" x="113.616468" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="#000000"/>
+  <rect stroke="#ffffff" id="svg_5" height="100.183372" width="50" y="102.373952" x="139.650754" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#000" id="svg_6" height="200.408316" width="99.775064" y="1.19522" x="231.95416" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="#000000"/>
+  <rect stroke="#000" id="svg_7" height="50.224933" width="74.552746" y="25.454446" x="257.988454" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect transform="rotate(90 282.83935546875006,141.68695068359378) " stroke="#000" id="svg_8" height="50.224933" width="74.552746" y="116.574467" x="245.562997" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#000" transform="rotate(90 269.2305297851563,87.84332275390628) " id="svg_9" height="23.007261" width="44.968325" y="76.339687" x="246.746367" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#000" id="svg_10" height="200.408316" width="99.775064" y="1.19522" x="346.150037" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="#000000"/>
+  <rect stroke="#000" id="svg_11" height="50.224933" width="74.552746" y="32.554708" x="372.184328" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#000" id="svg_12" height="50.224933" width="74.552746" y="118.94122" x="372.184328" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#000" transform="rotate(90 165.0933532714844,47.31260681152345) " id="svg_13" height="50.224933" width="46.743392" y="22.200131" x="141.721665" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#000" transform="rotate(90 53.26423645019531,48.49598693847657) " id="svg_14" height="50.224933" width="46.743392" y="23.383508" x="29.892548" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+ </g>
+</svg>
